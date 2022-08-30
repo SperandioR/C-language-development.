@@ -1,24 +1,26 @@
 #include <stdio.h> //comandos de entrada e saida dentro de uma biblioteca.
-#include <string.h> // Para se trabalhar com funÁıes de string se inclui esta biblioteca.
+#include <string.h> // Para se trabalhar com fun√ß√µes de string se inclui esta biblioteca.
 
 // assinatura da linguagem c Inicial.
 int main()
 {
 
-   //criaÁ„o das vari·veis.
+   //cria√ß√£o das vari√°veis.
     int idade;
     double salario;
     char nome[50];
     char sexo;
 
-    //atribuindo valores para cada vari·vel.
+    //atribuindo valores para cada vari√°vel.
     idade = 32;
     salario = 4560.9;
     strcpy(nome, "Maria Silva");
     sexo = 'F';
 
-    //impress„o dos valores.
+    //impress√£o dos valores.
     printf("A funcionaria %s, sexo %c, ganha %.2lf e tem %d anos\n", nome, sexo, salario, idade);
 
     return 0;
 }
+
+// Para cada vari√°vel adiciona-se Placeholder de formata√ß√£o para que possa imprimir os valores atribu√≠dos.
