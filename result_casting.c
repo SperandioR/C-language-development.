@@ -4,21 +4,21 @@
 int main()
 {
 
-    //criaÁ„o das vari·veis.
+    //cria√ß√£o das vari√°veis.
     int a, b;
     double resultado;
 
-    //atribuindo valores para cada vari·vel.
+    //atribuindo valores para cada vari√°vel.
     a = 5;
     b = 2;
-    resultado = (double) a / b; // adicionando um casting (double) para se obter o resultado fracionado.
+    resultado = (double) a / b; // adicionando um casting (double) para se obter o resultado do valor em forma de fra√ß√£o.
 
-    //impress„o dos valores.
+    //impress√£o dos valores.
     printf("%lf\n", resultado);
 
     return 0;
 }
 
 
-//para calcular uma divis„o fracionada partindo de um n˙mero inteiro È preciso adicionar um casting na frente do calculo de divis„o.
-//converter a vari·vel double dividindo por um n˙mero inteiro vai dar um resultado (double).
+//para calcular uma divis√£o fracionada partindo de um n√∫mero inteiro √© preciso adicionar um casting na frente do calculo de divis√£o.
+//converter a vari√°vel double dividindo por um n√∫mero inteiro vai dar um resultado (double).
