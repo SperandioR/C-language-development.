@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <stdio.h>//comandos de entrada e saida dentro de uma biblioteca na linguagem C.
 
 int main()
 {
-    //Declarando cada vari·vel.
+    //Declarando cada vari√°vel.
     int hora;
-    printf("Digite uma hora do dia: "); //imprimindo frase para o usu·rio digitar algum dado.
-    scanf("%d", &hora); //fazendo a leitura dos dados inseridos pelo usu·rio.
+    printf("Digite uma hora do dia: "); //imprimindo frase para o usu√°rio digitar algum dado.
+    scanf("%d", &hora); //fazendo a leitura dos dados inseridos pelo usu√°rio.
 
     if (hora < 12) //<se> a hora for menor do que 12?!
     {
